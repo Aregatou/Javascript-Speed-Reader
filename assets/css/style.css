@@ -1,0 +1,147 @@
+body {
+	font-family: "Franklin Gothic";
+	background-color: black !important;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px 60px;
+	color: black;
+}
+#title {
+	color:white;
+	padding: 10px 0;
+	height: 60px;
+	margin: 0;
+	text-align: center;
+	background: black;
+}
+
+
+/*Monologue text*/
+#mono {
+	margin: 0;
+	font-size: 100%;
+	padding: 50px;
+	background: black;
+	opacity: .7;
+	color: white;
+	line-height: 22.8px;	
+	border-left: 10px solid red;
+}
+
+/*caption*/
+footer {
+	text-align: right;
+	margin-right: 20%;
+	color: rgba(200, 200, 200, 0.7);
+}
+
+
+/*all buttons*/
+#buttonsDiv {
+	text-align: center;
+}
+
+/*display text & next/prev buttons*/
+#displayContainer {
+	height: 100px;
+}
+
+/*current word being read */
+#displayText {
+	background: rgba(10, 10, 10, .4);;
+	border: 4px solid rgba(10, 10, 10, .5);
+	outline: 1px solid rgba(220, 220, 220, .5);
+	font-size: 70px;
+	text-shadow: 2px 2px black;
+	text-align: center;
+	height: 100px;
+	color: white;
+	width: 45%;
+	display: inline-block;
+	margin: 0 auto;
+}
+/*start button*/
+#start {
+	color:white;
+	background: rgb(40, 40, 40);
+	width: 100px;
+}
+/*slow/fast/pause btns*/
+#controls {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	height: 40px;
+	text-align: center;
+}
+
+#prevBtn {
+	margin-bottom: 50px;
+	display: inline-block;
+	font-size: 25px;
+	padding: 0 8px;
+	outline: rgb(20, 20, 20);
+}
+#nextBtn {
+	margin-bottom: 50px;
+	display: inline-block;
+	font-size: 25px;
+	padding: 0 8px;
+	outline: rgb(20, 20, 20);
+}
+#clear {
+	display: inline-block;
+	float: right;
+	padding: 7px;
+	font-size: 15px;
+}
+.fa-eraser {
+
+}
+/*hide buttons until ready to display*/
+.hidden {
+	opacity: 0;
+	height: 70px;
+}
+/*entire user-input div*/
+#custom {
+	margin-left: 25%;
+	margin-top: 35px;
+	width: 50%;
+}
+/*text explaining user-input box*/
+#instructions {
+	color: white;
+	text-align: center;
+	text-shadow: 2px 2px #000000;
+	font-size: 130%;
+	display: inline-block;
+}
+/*text-box of user-input area*/
+#userInput {
+	width: 100%;
+	height: 130px;
+}
+
+/*start/stop & NewScript btns*/
+#startReset {
+	text-align: center;
+	margin-top: 25px;
+	height: 20px;
+	float:none;
+	position: relative;
+
+}
+
+.btn {
+	outline: 0;
+	font-size: 120%;
+}
+
+.btn:hover {
+	box-shadow: inset 0 -4px 0px 0px rgba(70, 70, 70, 0.8);
+}
+/*control buttons*/
+.block {
+	width: 120px;
+}

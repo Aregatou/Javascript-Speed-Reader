@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Snippet Reader</title>
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- font-awesome icons -->
+	<link rel="stylesheet" type="text/css" href="assets/css/lib/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!-- bootstrap designs -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- array of different SamLJackson monologues -->
+	<script type="text/javascript" src="assets/js/monologues.js"></script>
+	
+
+
+
+</head>
+<body>
+
+	<div class="container">
+		<h1 id="title">Vak's Speed Reader</h1>
+
+		<div id="mono">
+			<p id="monoParag"></p>
+			<p id="rdMonoParag"></p>
+			<footer></footer>
+		</div>
+
+
+
+		<div id="buttonsDiv">
+
+			<div class="btn-group" id="controls" role="group">
+				<button class="block btn btn-group" id="slower" title="Slow down reader">Slower!</button>
+
+				<button class="block btn btn-group btn-danger" id="stop">Pause</button>
+
+				<button class="block btn btn-group" id="faster" title="Speed up reader">Faster!</button>
+			</div>
+
+			<div id="displayContainer">
+				<button class="btn" id="prevBtn" title="Previous Word"><i class="fa fa-backward" aria-hidden="true"></i></button>
+
+				<span id="displayText"></span>
+
+				<button class="btn" id="nextBtn" title="Next Word"><i class="fa fa-forward" aria-hidden="true"></i></button>
+			</div>
+
+			<div class="btn-group strst" id="startReset">
+				<button class="btn-group btn" id="start">START!</button>
+				<button class="btn-group btn" id="newScriptBtn">New Script</button>
+			</div>
+
+		</div>
+
+
+		<div id="custom">
+			<p id="instructions">Or paste your own monologue below!</p>
+
+			<button class="btn btn-danger" id="clear" title="Clear text"><i class="fa fa-eraser" aria-hidden="true"></i></button>
+
+			<textarea id="userInput" placeholder="Paste here!"></textarea>
+		</div>
+	</div>
+
+
+<script type="text/javascript" src="assets/js/vars.js"></script>
+<script type="text/javascript" src="assets/js/functions.js"></script>
+<script type="text/javascript" src="assets/js/mainLogic.js"></script>
+
+</body>
+</html>
